@@ -1,16 +1,23 @@
 {
-  "name": "lexical-test",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
-  }
+    "name": "lexical-test",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@lexical/react": "^0.12.5",
+        "lexical": "^0.12.5",
+        "next": "14.0.4",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@types/node": "20.10.5",
+        "@types/react": "18.2.46",
+        "typescript": "5.3.3"
+    }
 }
